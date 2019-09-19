@@ -2,7 +2,7 @@
 	import os
 	import os.path as pt
 
-	prog_langs = {"c":".c", "c++":"cpp", "python":".py", "lua":".lua", "ruby":".rb", "c#":".cs", "java":".java", "php":".php"}
+	prog_langs = {"c":".c", "c++":".cpp", "python":".py", "lua":".lua", "ruby":".rb", "c#":".cs", "java":".java", "php":".php"}
 
 	if not pt.exists(address):
 		os.mkdir(address)
